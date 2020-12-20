@@ -21,78 +21,93 @@
     <body>
 
         <!-- Header -->
-        <header>
-            <img src="images/logo/Reservia.svg">
-            <a href="#hébergements">Hébergements</a>
-            <a href="#activités">Activités</a>
-            <a href="#inscription">S'inscrire</a>
+        <header class="header">
+            <img class="header_img" src="images/logo/Reservia.svg" alt="Reservia">
+            <nav class="header_nav">
+                <a class="header_nav_link" href="#hébergements" data-active="true">Hébergement</a>
+                <a class="header_nav_link" href="#activités" data-active="false">Activités</a>
+            </nav>
+            <a class="header_signup" href="#inscription">S'inscrire</a>
         </header>
         <!-- Header -->
 
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <!-- Main -->
+        <main class="main">
 
-        <h3>En plein centre ville ou en pleine nature</h3>
+            <!-- Search -->
+            <section class="search">
+                <header class="header_search">
+                    <h1 class="header_search_title">Trouvez votre hébergement pour des vacances de rêve</h1>
 
-        <i class="fas fa-map-marker-alt"></i> <input><button>Rechercher</button>
+                    <p class="header_search_subtitle">En plein centre ville ou en pleine nature</p>
+                </header>
 
-        <p>Filtres</p>
-        <i class="fas fa-money-bill-wave"></i><label>Economique</label>
-        <i class="fas fa-child"></i><label>Familial</label>
-        <i class="fas fa-heart"></i><label>Romantique</label>
-        <i class="fas fa-dog"></i><label>Animaux autorisés</label>
-        <br>
-        <br>
-        <i class="fas fa-info"></i><label> Plus de 500 logements sont disponibles dans cette ville</label>
+                <i class="fas fa-map-marker-alt"></i> <input><button>Rechercher</button>
 
-        <section id="hébergements">
-            <div class="my-col-md-6">
-                <h1>Hébergments à Marseille</h1>
-            </div>
-            <div class="my-col-md-6">
-                <h1>Les plus populaires</h1><i class="fas fa-chart-line"></i>
-            </div>
-        </section>
+                <p>Filtres</p>
+                <i class="fas fa-money-bill-wave"></i><label>Economique</label>
+                <i class="fas fa-child"></i><label>Familial</label>
+                <i class="fas fa-heart"></i><label>Romantique</label>
+                <i class="fas fa-dog"></i><label>Animaux autorisés</label>
+                <br>
+                <br>
+                <i class="fas fa-info"></i><label> Plus de 500 logements sont disponibles dans cette ville</label>
+            </section>
+            <!--Search-->
 
-        <section id="activités"  class="activités">
-            <h2>Activités à Marseille</h2>
-                    <a href="#" class="activite_card activite_card1">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan">
-                        </div>
-                        <h3 class="activite_card_titre">Vieux Port</h3>
-                    </a>
-                    <a href="#" class="activite_card activite_card2">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image">
-                        </div>
-                        <h3 class="activite_card_titre">Fort de Pomègues</h3>
-                    </a>
-                    <a href="#" class="activite_card activite_card3">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan">
-                        </div>
-                        <h3 class="activite_card_titre">Île du Frioul</h3>
-                    </a>
-                    <a href="#" class="activite_card activite_card4">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan">
-                        </div>
-                        <h3 class="activite_card_titre">Parc National des Calanques</h3>
-                    </a>
-                    <a href="#" class="activite_card activite_card5">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux">
-                        </div>
-                        <h3 class="activite_card_titre">Notre-Dame-de-la-Garde</h3>
-                    </a>
-                    <a href="#" class="activite_card activite_card6">
-                        <div class="activite_card_img">
-                            <img class="activite_card_IMG" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse">
-                        </div>
-                        <h3 class="activite_card_titre">Parc Longchamp</h3>
-                    </a>
-        </section>
+            <section id="hébergements">
+                <div class="my-col-md-6">
+                    <h1>Hébergments à Marseille</h1>
+                </div>
+                <div class="my-col-md-6">
+                    <h1>Les plus populaires</h1><i class="fas fa-chart-line"></i>
+                </div>
+            </section>
 
+            <section id="activités"  class="activités">
+                <h2>Activités à Marseille</h2>
+                        <a href="#" class="activite_card activite_card1">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan">
+                            </div>
+                            <h3 class="activite_card_titre">Vieux Port</h3>
+                        </a>
+                        <a href="#" class="activite_card activite_card2">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image">
+                            </div>
+                            <h3 class="activite_card_titre">Fort de Pomègues</h3>
+                        </a>
+                        <a href="#" class="activite_card activite_card3">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan">
+                            </div>
+                            <h3 class="activite_card_titre">Île du Frioul</h3>
+                        </a>
+                        <a href="#" class="activite_card activite_card4">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan">
+                            </div>
+                            <h3 class="activite_card_titre">Parc National des Calanques</h3>
+                        </a>
+                        <a href="#" class="activite_card activite_card5">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux">
+                            </div>
+                            <h3 class="activite_card_titre">Notre-Dame-de-la-Garde</h3>
+                        </a>
+                        <a href="#" class="activite_card activite_card6">
+                            <div class="activite_card_img">
+                                <img class="activite_card_IMG" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse">
+                            </div>
+                            <h3 class="activite_card_titre">Parc Longchamp</h3>
+                        </a>
+            </section>
+
+        </main>
+        <!-- Main -->
+
+        <!-- Footer -->
         <footer class="footer">
             <div class="footer_block">
                 <div class="footer_colonne">
@@ -115,6 +130,9 @@
                 </div>
             </div>
         </footer>
+        <!-- Footer -->
+
     </body>
     <!-- Corps de la page -->
+
 </html>
