@@ -36,24 +36,66 @@
 
             <!-- Search -->
             <section class="search">
+
+                <!-- Header Search -->
                 <header class="header_search">
                     <h1 class="header_search_title">Trouvez votre hébergement pour des vacances de rêve</h1>
 
                     <p class="header_search_subtitle">En plein centre ville ou en pleine nature</p>
+
+                    <form class="form_search" action="form_process.html" method="GET">
+                        <span class="form_search_icon">
+                          <i class="fas fa-map-marker-alt form_search_ICON" aria-hidden="true"></i>
+                        </span>
+                        <input class="form_search_input" type="search" placeholder="Marseille, France" size="1">
+                        <button class="form_search_submit">
+                            <span class="form_search_submit_text">Rechercher</span>
+                        </button>
+                    </form>
                 </header>
+                <!-- Header Search -->
 
-                <i class="fas fa-map-marker-alt"></i> <input><button>Rechercher</button>
+                <!-- Search Filter -->
+                <div class="search_filter">
+                    <h2 class="search_filter_titre">Filtres</h2>
+                    <div class="search_FILTER">
+                        <div class="search_filter_icon">
+                            <i class="fas fa-money-bill-wave search_filter_ICON" aria-hidden="true"></i>
+                        </div>
+                        <span class="search_FILTER_titre">Économique</span>
+                    </div>
+                    <div class="search_FILTER">
+                        <div class="search_filter_icon">
+                            <i class="fas fa-child search_filter_ICON" aria-hidden="true"></i>
+                        </div>
+                        <span class="search_FILTER_titre">Familial</span>
+                    </div>
+                    <div class="search_FILTER">
+                        <div class="search_filter_icon">
+                            <i class="fas fa-heart search_filter_ICON" aria-hidden="true"></i>
+                        </div>
+                        <span class="search_FILTER_titre">Romantique</span>
+                    </div>
+                    <div class="search_FILTER">
+                        <div class="search_filter_icon">
+                            <i class="fas fa-dog search_filter_ICON" aria-hidden="true"></i>
+                        </div>
+                        <span class="search_FILTER_titre">Animaux autorisés</span>
+                    </div>
+                </div>
+                <!-- Search Filter -->
 
-                <p>Filtres</p>
-                <i class="fas fa-money-bill-wave"></i><label>Economique</label>
-                <i class="fas fa-child"></i><label>Familial</label>
-                <i class="fas fa-heart"></i><label>Romantique</label>
-                <i class="fas fa-dog"></i><label>Animaux autorisés</label>
-                <br>
-                <br>
-                <i class="fas fa-info"></i><label> Plus de 500 logements sont disponibles dans cette ville</label>
+                <!-- Search Result -->
+                <div class="search_result">
+                    <div class="search_result_icon"><i class="fas fa-info search_result_ICON" aria-hidden="true"></i></div>
+                    <p class="search_result_text">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+                <!-- Search Result -->
+
             </section>
             <!--Search-->
+
+            <!-- Hébergements -->
 
             <section id="hébergements">
                 <div class="my-col-md-6">
@@ -64,6 +106,9 @@
                 </div>
             </section>
 
+            <!-- Hébergements -->
+            
+            <!-- Activités -->
             <section id="activités"  class="activités">
                 <h2>Activités à Marseille</h2>
                         <a href="#" class="activite_card activite_card1">
@@ -103,6 +148,7 @@
                             <h3 class="activite_card_titre">Parc Longchamp</h3>
                         </a>
             </section>
+            <!-- Activités -->
 
         </main>
         <!-- Main -->

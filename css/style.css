@@ -7,16 +7,6 @@ body {
     font-family: Raleway, sans-serif;
 }
 
-button {
-    background-color: blue;
-    color: white;
-}
-
-i {
-    color: #0065FC;
-    background-color: #DEEBFF;
-}
-
 img {
     border: none;
 }
@@ -27,7 +17,9 @@ a {
     background-color: transparent;
 }
 
-/*** Header ***/
+/*** ----------------------------------------------------------------- ***/
+                            /*** Header ***/
+/*** ----------------------------------------------------------------- ***/
 
 .header {
     grid-template-columns: auto 1fr auto auto;
@@ -91,7 +83,9 @@ main {
     display: block;
 }
 
-/*** Search ***/
+/*** ----------------------------------------------------------------- ***/
+                            /*** Search ***/
+/*** ----------------------------------------------------------------- ***/
 
 .header_search_title {
     margin-bottom: 0.5rem;
@@ -106,7 +100,152 @@ h1 {
     margin-top: 0;
 }
 
-/*** Activité ***/
+.form_search {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.form_search_icon {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.form_search_ICON {
+    margin-left: 0.1rem;
+}
+
+.form_search_input {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Raleway, sans-serif;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.form_search_submit {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+[type="button"], [type="reset"], [type="submit"], button {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+
+.form_search_submit_text {
+    display: block;
+}
+
+/*** ----------------------------------------------------------------- ***/
+                        /*** Search Filter ***/
+/*** ----------------------------------------------------------------- ***/
+
+.search_filter {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.search_filter_titre {
+    margin: 0 2rem 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.search_FILTER {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+}
+
+.search_filter_icon {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+}
+
+.search_filter_ICON {
+    color: blue;
+}
+
+.search_FILTER_titre {
+    margin: 0 1rem;
+}
+
+/*** ----------------------------------------------------------------- ***/
+                        /*** Search Result ***/
+/*** ----------------------------------------------------------------- ***/
+
+.search_result {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.search_result_icon {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.search_result_ICON {
+    color: #0065FC;
+}
+
+.search_result_text {
+    margin: 0;
+}
+
+/*** ----------------------------------------------------------------- ***/
+                            /*** Activité ***/
+/*** ----------------------------------------------------------------- ***/
 
 .activite_card {
     box-shadow: 0 0 20px #0000002e;
@@ -175,8 +314,9 @@ h1 {
     margin: 1.2rem 1.5rem;
 }
 
-
-/*** Footer ***/
+/*** ----------------------------------------------------------------- ***/
+                                /*** Footer ***/
+/*** ----------------------------------------------------------------- ***/
 
 .footer {
     background-color: #F2F2F2;
