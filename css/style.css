@@ -91,7 +91,30 @@ img {
     margin: 1.2rem 1.5rem;
 }
 
+
+/*** Footer ***/
+
+
 .footer {
     background-color: #F2F2F2;
     width: 100%;
+}
+
+.footer_block {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.footer_colonne {
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+.footer_link {
+    display: block;
+    margin: 1rem 0;
 }
