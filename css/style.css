@@ -247,6 +247,87 @@ button, select {
     margin: 0;
 }
 
+
+/*** ----------------------------------------------------------------- ***/
+/*** ---------------------------- Hébergements --------------------------- ***/
+/*** ----------------------------------------------------------------- ***/
+
+.hébergements {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+}
+
+.hebergements_main {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.hebergements_main_header {
+    grid-column: 1/-1;
+}
+
+.hebergements_main_header_title {
+    margin: 0;
+}
+
+.hebergements_main_card {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.hebergements_main_card:hover {
+    transform: scale(1.02);
+}
+
+.hebergements_main_card_figure {
+    margin: 0;
+}
+
+.hebergements_main_card_figure_img {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.hebergements_main_card_figure_caption_title {
+    margin: 0.25rem 0.75rem 0 0.75rem;
+}
+
+.hebergements_main_card_desc {
+    margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+
+.hebergements_main_card_desc_price {
+    font-weight: bold;
+}
+
+.hebergements_main_card_grade {
+    margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+.hebergements_main_card_grade_icon[data-active=true] {
+    color: #0065FC;
+}
+
+.hebergements_main_card_grade_icon[data-active=false] {
+    color: #f2f2f2;
+}
+
+.hebergements_main_viewmore {
+    font-weight: bold;
+}
+
 /*** ----------------------------------------------------------------- ***/
 /*** ---------------------------- Activité --------------------------- ***/
 /*** ----------------------------------------------------------------- ***/
