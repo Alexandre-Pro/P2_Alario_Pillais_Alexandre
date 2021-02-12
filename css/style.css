@@ -593,7 +593,7 @@ button, select {
     .activités {
         row-gap: 2rem;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 12rem 12rem;
+        grid-template-rows: 12rem 12rem 12rem;
     }
 }
 
@@ -601,7 +601,7 @@ button, select {
     .activités {
         row-gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 12rem 12rem 12rem;
+        /*grid-template-rows: 12rem 12rem 12rem 12rem;*/
     }
 }
 
@@ -609,7 +609,7 @@ button, select {
     .activités {
         row-gap: 2rem;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+        grid-template-rows: 12rem 12rem 12rem 12rem 12rem 12rem;
     }
 }
 /*** ----------------------------------------------------------------- ***/
