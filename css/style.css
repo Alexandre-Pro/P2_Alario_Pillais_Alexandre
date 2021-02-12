@@ -296,9 +296,11 @@ button, select {
 }
 
 @media screen and (max-width: 650px) {
+
     .search_filter_titre {
         width: 100%;
     }
+
     .search_FILTER {
         margin-right: 1rem;
     }
@@ -479,7 +481,7 @@ button, select {
 /*** ------------------------- media queries ------------------------- ***/
 /*** ----------------------------------------------------------------- ***/
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .hébergements {
         grid-template-columns: 1fr;
         row-gap: 2rem;
