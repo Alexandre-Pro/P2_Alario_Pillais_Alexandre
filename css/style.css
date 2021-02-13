@@ -116,7 +116,7 @@ a {
 .main {
     max-width: 1440px;
     margin: auto;
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
     box-sizing: border-box;
 }
 
@@ -260,7 +260,7 @@ button, select {
 .search_FILTER {
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    /*margin-right: 2rem;*/
     border: 2px solid #d9d9d9;
     border-radius: 2rem;
     margin-bottom: 1rem;
@@ -302,8 +302,9 @@ button, select {
     }
 
     .search_FILTER {
-        margin-right: 1rem;
+        flex-wrap: wrap;
     }
+
 }
 
 /*** ----------------------------------------------------------------- ***/
